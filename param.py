@@ -1,0 +1,8 @@
+# DATABASE="eicu"
+DATABASE="zhuda"
+USER="postgres"
+PASSWORD="123456"
+HOST="172.16.60.173"
+PORT="3307"
+# SEARCH_PATH='eicu_crd'
+SEARCH_PATH='test'
