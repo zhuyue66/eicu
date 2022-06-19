@@ -24,6 +24,8 @@ class PostgreSQL:
         find_sql = "SELECT * FROM lab_pf WHERE ID=" + str(id) + ";"
         cursor.execute(find_sql)
         result = cursor.fetchall()
+        cursor.close()
+        self.connection.close()
         return result
 
 if __name__ == '__main__':
